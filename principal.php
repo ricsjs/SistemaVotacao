@@ -115,7 +115,7 @@ $dados = mysqli_fetch_array($resultado);
 
                                     echo "<br><br>";
                                     //botão para votar na referida chapa
-                                    echo "<a class='btn btn-primary' style='background:#DD4848; color: white; border-color: #DD4848' href='votar.php?id=".$row_chapa['chapa_id']."'>Votar</a><butto>VOTAAR</button><br><hr>";
+                                    echo "<a class='btn btn-primary' style='background:#DD4848; color: white; border-color: #DD4848' href='votar.php?id=".$row_chapa['chapa_id']."'>Votar</a><br><hr>";
                                 }
                                 ?>
                             </ul>
